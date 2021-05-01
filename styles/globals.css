@@ -4,18 +4,18 @@
 
 @layer base {
   h1 {
-    @apply font-sans font-bold text-3xl text-center pb-5 lg:text-5xl lg:text-left lg:pb-8
+    @apply font-sans font-black text-2xl pb-3 lg:text-5xl lg:pb-8
   }
   h2 {
     @apply font-sans font-bold text-2xl lg:text-3xl 
   }
   h3 {
-
+    @apply font-sans font-bold text-xl lg:text-2xl
   }
   h4 {
-
+    @apply font-sans font-bold text-base
   }
   p {
-
+    @apply font-sans text-base
   }
 }
