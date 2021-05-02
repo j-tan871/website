@@ -45,28 +45,31 @@ export default function Home() {
             <div className='flex flex-wrap px-5 md:px-28 lg:px-36 xl:px-56'>
               <Project
                 title='Vibecheck'
-                tech='React Native, Node/Express, Sequelize, MySQL'
-                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Implemented user interface that allows users to rate parties and view evaluations']}
+                tech='React Native, React, Node/Express, Sequelize, MySQL'
+                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Created web application to allow administrators to easily view database contents']}
                 img='/images/vibecheck.JPG'
                 github='https://github.com/j-tan871'
                 link='https://github.com/j-tan871'
               />
               <Project
                 title='Vibecheck'
-                tech='React Native, Node/Express, Sequelize, MySQL'
-                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Implemented user interface that allows users to rate parties and view evaluations']}
+                tech='React Native, React, Node/Express, Sequelize, MySQL'
+                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Created web application to allow administrators to easily view database contents']}
                 img='/images/chainge.JPG'
+                github='https://github.com/j-tan871'
+                link='https://github.com/j-tan871'
               />
               <Project
                 title='Vibecheck'
-                tech='React Native, Node/Express, Sequelize, MySQL'
-                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Implemented user interface that allows users to rate parties and view evaluations']}
+                tech='React Native, React, Node/Express, Sequelize, MySQL'
+                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Created web application to allow administrators to easily view database contents']}
                 img='/images/markov.JPG'
+                github='https://github.com/j-tan871'
               />
               <Project
                 title='Vibecheck'
-                tech='React Native, Node/Express, Sequelize, MySQL'
-                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Implemented user interface that allows users to rate parties and view evaluations']}
+                tech='React Native, React, Node/Express, Sequelize, MySQL'
+                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Created web application to allow administrators to easily view database contents']}
                 img='/images/vibecheck.JPG'
               />
 
