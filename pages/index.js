@@ -35,15 +35,15 @@ export default function Home() {
                 </div>
                 <div className='transition-colors duration-1000 ease-in-out p-4 md:p-8 dark:bg-lightpurple'>
                   <h1 className='dark:text-white'>Hi, I'm Jenny!</h1>
-                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-2xl pb-2 lg:pb-5'>I’m a junior studying CS at Brown, with a focus in Software and AI/ML.</p>
-                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-2xl pb-2 lg:pb-5'>Currently, I’m a Software Development Engineer intern at Amazon. </p>
-                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-2xl'>Put more info later. </p>
+                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>I’m a junior studying CS at Brown, with a focus in Software and AI/ML.</p>
+                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>Currently, I’m a Software Development Engineer intern at Amazon. </p>
+                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl'>Put more info later. </p>
                 </div>
               </div>
             </div>
             <FontAwesomeIcon icon={faArrowDown} className='h-8 w-8 mt-20 dark:text-white'/>
           </section>
-          <section className='my-14 px-8 md:px-28 lg:px-36 xl:px-72 dark:text-white md:pt-28' id='experience'>
+          <section className='py-28 px-8 md:px-28 lg:px-36 xl:px-72 dark:text-white md:pt-28' id='experience'>
             <h2>Experience</h2>
             <p>Click on the headings to learn more!</p>
             <Experience 
@@ -51,40 +51,40 @@ export default function Home() {
               title='Software Development Engineer Intern'
               company='Amazon'
               date='May 2021 - Present'
-              description={['line1', 'line2', 'line3']}
+              description={[]}
             />
             <Experience 
               image='/images/brown.png'
               title='Undergraduate Teaching Assistant'
               company='CSCI 0330: Introduction to Computer Systems'
               date='August 2021'
-              description={['line1', 'line2', 'line3']}
+              description={[]}
             />
             <Experience 
               image='/images/fsab.jpg'
               title='Product Manager'
               company='Full Stack at Brown'
               date='January 2021 - Present'
-              description={['line1', 'line2', 'line3']}
+              description={['- Guide development for three project teams from start to finish', '- Help debug and resolve technical issues in React, Express, and MySQL']}
             />
             <Experience 
               image='/images/brown.png'
               title='Socially Responsible Computing Teaching Assistant'
               company='CSCI 0300: Fundamentals of Computer Systems'
               date='December 2021 - April 2021'
-              description={['line1', 'line2', 'line3']}
+              description={['- Redesign course assignments to include topics like privacy, environmental impact, and system design', '- Integrated GDPR-compliance component into a distributed key-value store assignment', '- Wrote and graded conceptual questions in projects']}
             />
             <Experience 
               image='/images/bluebonnet.jpg'
               title='Data Fellow'
               company='Bluebonnet Data'
               date='June 2021 - November 2021'
-              description={['line1', 'line2', 'line3']}
+              description={['- Serve as a volunteer data analyst for the Palmer campaign for Texas State Board of Education District 6', '- Provide analyses to help the campaign more efficiently target voters and understand demographics such as vote count estimates and choropleth maps (Python, SQL)', '- Trained on political data methods, such as working with Census data, the voter file, and VAN']}
             />
           </section>
           <br />
-          <section className='pt-24 pb-14 md:pb-20' id='projects'>
-            <h2 className='px-14 md:px-28 lg:px-36 xl:px-72 dark:text-white'>Projects</h2>
+          <section className='pt-28 pb-14 md:pb-20' id='projects'>
+            <h2 className='px-14 pb-5 md:pb-8 md:px-28 lg:px-36 xl:px-72 dark:text-white'>Projects</h2>
             <div className='flex flex-wrap px-5 md:px-28 lg:px-36 xl:px-56'>
               <Project
                 title='Vibecheck'
@@ -112,12 +112,11 @@ export default function Home() {
               <Project
                 title='r/WallStreetBets'
                 tech='Python, d3.js'
-                description={['An analysis of the performance of stocks approved by r/WallStreetBets', 'Web scraped r/WallStreetBets and analyzed sentiment on stocks to construct a portfolio']}
+                description={['An analysis of the performance of stocks approved by r/WallStreetBets', 'Web scraped r/WallStreetBets and analyzed sentiment on stocks to construct a portfolio', 'Compared portfolio performance with the S&P 500']}
                 img='/images/wsb.png'
                 github='https://github.com/CS1951A-S21-Brown/r_ThayerStreetBets_final_project'
                 link='https://drive.google.com/file/d/1Ps01BaVyLuNETnunt1Sm2g7hFwAYnmeW/view?usp=sharing'
               />
-
             </div>
           </section>
         </div>

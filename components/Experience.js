@@ -15,7 +15,7 @@ export default function Experience(props) {
           className='rounded-full'
         />
       </div>
-      <div className='rounded-xl shadow-md ml-3 md:ml-5 p-3 md:p-5 w-3/4 dark:bg-lightpurple' onClick={() => setDetailed(!detailed)}>
+      <div className='transition-colors duration-1000 ease-in-out rounded-xl shadow-md ml-3 md:ml-5 p-3 md:p-5 w-3/4 dark:bg-lightpurple' onClick={() => setDetailed(!detailed)}>
         <h3>{props.title}</h3>
         <p className='text-gray-600 dark:text-white italic'>{props.company}</p>
         <p className='text-gray-600 dark:text-white'>{props.date}</p>

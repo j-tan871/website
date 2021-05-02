@@ -4,7 +4,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer(props) {
   return (
-    <footer className={props.isDark ? 'dark' : null}>
+    <footer className={props.isDark ? 'dark' : null} id='contact'>
       <div className='grid justify-items-center px-5 md:px-0 transition-colors duration-1000 ease-in-out bg-white text-black dark:bg-darkpurple dark:text-white'>
         <div className='h-24 flex flex-wrap items-center'>
           <a href='https://github.com/j-tan871' className='flex items-center mx-3'>
