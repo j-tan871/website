@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 import Navigation from '../components/Navigation';
+import Experience from '../components/Experience';
 import Project from '../components/Project';
 import Footer from '../components/Footer';
 
@@ -41,6 +42,45 @@ export default function Home() {
               </div>
             </div>
             <FontAwesomeIcon icon={faArrowDown} className='h-8 w-8 mt-20 dark:text-white'/>
+          </section>
+          <section className='py-14 px-8 md:px-28 lg:px-36 xl:px-72 dark:text-white md:py-28'>
+            <h2>Experience</h2>
+            <p>Click on the headings to learn more!</p>
+            <Experience 
+              image='/images/amazon.png'
+              title='Software Development Engineer Intern'
+              company='Amazon'
+              date='May 2021 - Present'
+              description={['line1', 'line2', 'line3']}
+            />
+            <Experience 
+              image='/images/brown.png'
+              title='Undergraduate Teaching Assistant'
+              company='CSCI 0330: Introduction to Computer Systems'
+              date='August 2021'
+              description={['line1', 'line2', 'line3']}
+            />
+            <Experience 
+              image='/images/fsab.jpg'
+              title='Product Manager'
+              company='Full Stack at Brown'
+              date='January 2021 - Present'
+              description={['line1', 'line2', 'line3']}
+            />
+            <Experience 
+              image='/images/brown.png'
+              title='Socially Responsible Computing Teaching Assistant'
+              company='CSCI 0300: Fundamentals of Computer Systems'
+              date='December 2021 - April 2021'
+              description={['line1', 'line2', 'line3']}
+            />
+            <Experience 
+              image='/images/bluebonnet.jpg'
+              title='Data Fellow'
+              company='Bluebonnet Data'
+              date='June 2021 - November 2021'
+              description={['line1', 'line2', 'line3']}
+            />
           </section>
           <section className='py-14 md:py-28'>
             <h2 className='px-14 md:px-28 lg:px-36 xl:px-72 dark:text-white'>Projects</h2>

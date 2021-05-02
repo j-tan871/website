@@ -8,6 +8,11 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+      }, 
+      transitionProperty: {
+        'height':'height',
+        'display':'display',
+        'visibility':'visibility'
       }
     },
     colors: {
