@@ -89,32 +89,33 @@ export default function Home() {
               <Project
                 title='Vibecheck'
                 tech='React Native, React, Node/Express, Sequelize, MySQL'
-                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Created web application to allow administrators to easily view database contents']}
+                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Companion dashboard web application for administrators to view party safety rating data and statistics']}
                 img='/images/vibecheck.JPG'
-                github='https://github.com/j-tan871'
-                link='https://github.com/j-tan871'
+                github='https://github.com/FullStackAtBrownTeam/project-party-safety'
               />
               <Project
-                title='Vibecheck'
-                tech='React Native, React, Node/Express, Sequelize, MySQL'
-                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Created web application to allow administrators to easily view database contents']}
+                title='CHAINge'
+                tech='React, Python/Flask'
+                description={['Web application that connects volunteers to nonprofits for volunteer opportunities', 'Rewards volunteers with decentralized tokens based on the Stellar blockchain network', 'Won Best Stellar Development Hack: 2nd place at Hack the Northeast']}
                 img='/images/chainge.JPG'
-                github='https://github.com/j-tan871'
-                link='https://github.com/j-tan871'
+                github='https://github.com/j-tan871/CHAINge-htne'
+                link='https://folding-297715.web.app/'
               />
               <Project
-                title='Vibecheck'
-                tech='React Native, React, Node/Express, Sequelize, MySQL'
-                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Created web application to allow administrators to easily view database contents']}
+                title='Markov Chain Text Generator'
+                tech='React, Python/Flask'
+                description={['Web application that generates text using Markov chains from a specified corpus and text length']}
                 img='/images/markov.JPG'
-                github='https://github.com/j-tan871'
+                github='https://github.com/j-tan871/text-generator'
+                link='https://markovtextgenerator64802.web.app/'
               />
               <Project
-                title='Vibecheck'
-                tech='React Native, React, Node/Express, Sequelize, MySQL'
-                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Created web application to allow administrators to easily view database contents']}
-                img='/images/vibecheck.JPG'
-                github='https://github.com/j-tan871'
+                title='r/WallStreetBets'
+                tech='Python, d3.js'
+                description={['An analysis of the performance of stocks approved by r/WallStreetBets', 'Web scraped r/WallStreetBets and analyzed sentiment on stocks to construct a portfolio']}
+                img='/images/wsb.png'
+                github='https://github.com/CS1951A-S21-Brown/r_ThayerStreetBets_final_project'
+                link='https://drive.google.com/file/d/1Ps01BaVyLuNETnunt1Sm2g7hFwAYnmeW/view?usp=sharing'
               />
 
             </div>

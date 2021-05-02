@@ -14,9 +14,9 @@ export default function Navigation(props) {
             />
           </div>
           <div className='col-start-3 flex justify-end '>
-            <div><a href='/#about' className='text-xs'>About</a></div>
-            <div className='px-5 md:px-12'><a href='/#experience' className='text-xs'>Experience</a></div>
-            <div><a href='/#projects' className='text-xs'>Projects</a></div>
+            <div><a href='/#about' className='text-xs md:text-base'>About</a></div>
+            <div className='px-5 md:px-12'><a href='/#experience' className='text-xs md:text-base'>Experience</a></div>
+            <div><a href='/#projects' className='text-xs md:text-base'>Projects</a></div>
           </div>
         </div>
       </div>

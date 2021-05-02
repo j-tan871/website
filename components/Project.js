@@ -6,8 +6,8 @@ import { faLink } from '@fortawesome/free-solid-svg-icons';
 export default function Project(props) {
   // lg:mr-auto lg:ml-12
   return (
-    <div className='transform hover:-translate-y-3 duration-100 ease-linear max-w-md mx-auto my-6 rounded-xl shadow-md overflow-hidden md:max-w-2xl'>
-      <div className='transition-colors duration-1000 ease-in-out bg-white dark:bg-lightpurple'>
+    <div className='transform hover:-translate-y-3 duration-100 ease-linear max-w-md mx-auto my-6 rounded-xl shadow-md overflow-hidden max-w-xl'>
+      <div className='transition-colors duration-1000 ease-in-out h-full bg-white dark:bg-lightpurple'>
         <div className='h-72 w-full relative'>
           <Image
             src={props.img}
