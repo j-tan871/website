@@ -16,6 +16,9 @@
     @apply font-sans font-bold text-base
   }
   p {
-    @apply font-sans text-base
+    @apply font-sans text-base 
+  }
+  button:focus {
+    @apply outline-none
   }
 }
