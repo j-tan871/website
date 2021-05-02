@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 
 import Navigation from '../components/Navigation';
 import Project from '../components/Project';
+import Footer from '../components/Footer';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(() => false);
@@ -73,10 +74,7 @@ export default function Home() {
           </section>
         </div>
       </main>
-
-      <footer>
-
-      </footer>
+      <Footer isDark={darkMode}/>
     </div>
   )
 }
