@@ -21,4 +21,10 @@
   button:focus {
     @apply outline-none
   }
+  a:hover {
+    @apply text-gray-500 dark:text-gray-200
+  }
+  FontAwesomeIcon {
+    @apply dark:text-white
+  }
 }
