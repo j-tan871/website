@@ -82,7 +82,7 @@ export default function Home() {
               description={['line1', 'line2', 'line3']}
             />
           </section>
-          <section className='py-14 md:py-28'>
+          <section className='pt-8 pb-14 md:py-28'>
             <h2 className='px-14 md:px-28 lg:px-36 xl:px-72 dark:text-white'>Projects</h2>
             <div className='flex flex-wrap px-5 md:px-28 lg:px-36 xl:px-56'>
               <Project
