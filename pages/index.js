@@ -47,6 +47,8 @@ export default function Home() {
                 tech='React Native, Node/Express, Sequelize, MySQL'
                 description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Designed REST API so that safety evaluations are stored persistently in the database', 'Implemented user interface that allows users to rate parties and view evaluations']}
                 img='/images/vibecheck.JPG'
+                github='https://github.com/j-tan871'
+                link='https://github.com/j-tan871'
               />
               <Project
                 title='Vibecheck'

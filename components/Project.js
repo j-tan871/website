@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 export default function Project(props) {
   // lg:mr-auto lg:ml-12
@@ -19,6 +22,14 @@ export default function Project(props) {
           {
             props.description.map((text, idx) => <p className='font-sans text-sm text-gray-500 dark:text-white' key={idx}>{text}</p>)
           }
+          <div className='flex'>
+            {
+              props.github ? <a href={props.github}><FontAwesomeIcon icon={faGithub} className='h-8 w-8 mt-5'/></a> : null
+            }
+            {
+              props.link ? <a href={props.link}><FontAwesomeIcon icon={faLink} className='h-8 w-8 mt-5 ml-5' /></a> : null
+            }
+          </div>
         </div>
       </div>
     </div>
