@@ -14,8 +14,8 @@ export default function Navigation(props) {
             />
           </div>
           <div className='col-start-3 flex justify-end '>
-            <div className='px-5 md:px-12'>Github</div>
-            <div>Resume</div>
+            <div className='px-5 md:px-12'><a href='https://github.com/j-tan871'>Github</a></div>
+            <div><a href='https://github.com/j-tan871'>Resume</a></div>
           </div>
         </div>
       </div>
