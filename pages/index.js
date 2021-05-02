@@ -101,6 +101,13 @@ export default function Home() {
                 github='https://github.com/j-tan871/CHAINge-htne'
                 link='https://folding-297715.web.app/'
               />
+              <Project 
+                title='Paul Quinn College Admissions Website'
+                tech='Vue, Python/Flask, MongoDB'
+                description={['Redesign of the Paul Quinn College admissions website to showcase their programs', 'Added new features to the site, including data visualizations, Facebook messenger chat, and an interactive Q&A board', 'Won 1st place at the JPMorgan Code for Good hackathon']}
+                img='/images/pqc.jpg'
+                link='https://fir-demo-c32f2.web.app/#/'
+              />
               <Project
                 title='Markov Chain Text Generator'
                 tech='React, Python/Flask'
@@ -114,7 +121,6 @@ export default function Home() {
                 tech='Python, d3.js'
                 description={['An analysis of the performance of stocks approved by r/WallStreetBets', 'Web scraped r/WallStreetBets and analyzed sentiment on stocks to construct a portfolio', 'Compared portfolio performance with the S&P 500']}
                 img='/images/wsb.png'
-                github='https://github.com/CS1951A-S21-Brown/r_ThayerStreetBets_final_project'
                 link='https://drive.google.com/file/d/1Ps01BaVyLuNETnunt1Sm2g7hFwAYnmeW/view?usp=sharing'
               />
             </div>

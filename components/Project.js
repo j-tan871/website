@@ -24,10 +24,10 @@ export default function Project(props) {
           }
           <div className='flex'>
             {
-              props.github ? <a href={props.github}><FontAwesomeIcon icon={faGithub} className='h-8 w-8 mt-5'/></a> : null
+              props.github ? <a href={props.github}><FontAwesomeIcon icon={faGithub} className='h-8 w-8 mt-5 mr-5'/></a> : null
             }
             {
-              props.link ? <a href={props.link}><FontAwesomeIcon icon={faLink} className='h-8 w-8 mt-5 ml-5' /></a> : null
+              props.link ? <a href={props.link}><FontAwesomeIcon icon={faLink} className='h-8 w-8 mt-5' /></a> : null
             }
           </div>
         </div>
