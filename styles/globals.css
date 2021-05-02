@@ -28,3 +28,7 @@
     @apply dark:text-white
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}

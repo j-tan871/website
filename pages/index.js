@@ -20,9 +20,9 @@ export default function Home() {
         <link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap' rel='stylesheet' />
       </Head>
       <Navigation setDarkMode={setDarkMode} isDark={darkMode} />
-      <main className={darkMode ? 'dark' : null}>
+      <main className={`pt-20 ${darkMode ? 'dark' : null}`}>
         <div className='transition-colors duration-1000 ease-in-out bg-white dark:bg-darkpurple'>
-          <section className='grid justify-items-center px-12 pt-24 md:px-32'>
+          <section className='grid justify-items-center px-12 pt-24 md:px-32' id='about'>
             <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-3xl'>
               <div className='md:flex'>
                 <div className='h-72 md:flex-shrink-0 md:h-96 md:w-72 relative'>
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <FontAwesomeIcon icon={faArrowDown} className='h-8 w-8 mt-20 dark:text-white'/>
           </section>
-          <section className='py-14 px-8 md:px-28 lg:px-36 xl:px-72 dark:text-white md:pt-28'>
+          <section className='my-14 px-8 md:px-28 lg:px-36 xl:px-72 dark:text-white md:pt-28' id='experience'>
             <h2>Experience</h2>
             <p>Click on the headings to learn more!</p>
             <Experience 
@@ -82,7 +82,8 @@ export default function Home() {
               description={['line1', 'line2', 'line3']}
             />
           </section>
-          <section className='pb-14 md:pb-20'>
+          <br />
+          <section className='pt-24 pb-14 md:pb-20' id='projects'>
             <h2 className='px-14 md:px-28 lg:px-36 xl:px-72 dark:text-white'>Projects</h2>
             <div className='flex flex-wrap px-5 md:px-28 lg:px-36 xl:px-56'>
               <Project
