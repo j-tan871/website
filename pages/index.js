@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <FontAwesomeIcon icon={faArrowDown} className='h-8 w-8 mt-20 dark:text-white'/>
           </section>
-          <section className='py-14 px-8 md:px-28 lg:px-36 xl:px-72 dark:text-white md:py-28'>
+          <section className='py-14 px-8 md:px-28 lg:px-36 xl:px-72 dark:text-white md:pt-28'>
             <h2>Experience</h2>
             <p>Click on the headings to learn more!</p>
             <Experience 
@@ -82,7 +82,7 @@ export default function Home() {
               description={['line1', 'line2', 'line3']}
             />
           </section>
-          <section className='pt-8 pb-14 md:py-28'>
+          <section className='pb-14 md:pb-20'>
             <h2 className='px-14 md:px-28 lg:px-36 xl:px-72 dark:text-white'>Projects</h2>
             <div className='flex flex-wrap px-5 md:px-28 lg:px-36 xl:px-56'>
               <Project
