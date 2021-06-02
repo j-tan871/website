@@ -3,6 +3,8 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import Navigation from '../components/Navigation';
 import Experience from '../components/Experience';
@@ -36,45 +38,45 @@ export default function Home() {
                 <div className='transition-colors duration-1000 ease-in-out p-4 md:p-8 dark:bg-lightpurple'>
                   <h1 className='dark:text-white'>Hi, I'm Jenny!</h1>
                   <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>I’m a junior studying CS at Brown, with a focus in Software and AI/ML.</p>
-                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>Currently, I’m a Software Development Engineer intern at Amazon. </p>
-                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl'>Put more info later. </p>
+                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>Currently, I’m a Software Development Engineer intern at Amazon working in the Seller Trust, Abuse, and Risk team. </p>
+                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl'>When I'm not working, I love running, cooking, and learning new things. </p>
                 </div>
               </div>
             </div>
-            <FontAwesomeIcon icon={faArrowDown} className='h-8 w-8 mt-20 dark:text-white'/>
+            <FontAwesomeIcon icon={faArrowDown} className='h-8 w-8 mt-20 dark:text-white' />
           </section>
           <section className='py-28 px-8 md:px-28 lg:px-36 xl:px-72 dark:text-white md:pt-28' id='experience'>
             <h2>Experience</h2>
             <p>Click on the headings to learn more!</p>
-            <Experience 
+            <Experience
               image='/images/amazon.png'
               title='Software Development Engineer Intern'
               company='Amazon'
               date='May 2021 - Present'
-              description={[]}
+              description={['Seller Trust, Abuse, and Risk team']}
             />
-            <Experience 
+            <Experience
               image='/images/brown.png'
               title='Undergraduate Teaching Assistant'
               company='CSCI 0330: Introduction to Computer Systems'
               date='August 2021'
               description={[]}
             />
-            <Experience 
+            <Experience
               image='/images/fsab.jpg'
               title='Product Manager'
               company='Full Stack at Brown'
               date='January 2021 - Present'
               description={['- Guide development for three project teams from start to finish', '- Help debug and resolve technical issues in React, Express, and MySQL']}
             />
-            <Experience 
+            <Experience
               image='/images/brown.png'
               title='Socially Responsible Computing Teaching Assistant'
               company='CSCI 0300: Fundamentals of Computer Systems'
               date='December 2021 - April 2021'
               description={['- Redesign course assignments to include topics like privacy, environmental impact, and system design', '- Integrated GDPR-compliance component into a distributed key-value store assignment', '- Wrote and graded conceptual questions in projects']}
             />
-            <Experience 
+            <Experience
               image='/images/bluebonnet.jpg'
               title='Data Fellow'
               company='Bluebonnet Data'
@@ -101,7 +103,15 @@ export default function Home() {
                 github='https://github.com/j-tan871/CHAINge-htne'
                 link='https://folding-297715.web.app/'
               />
-              <Project 
+              <Project
+                title='Spotify Song Recommender'
+                tech='Next.js, Python/Flask, Tailwind CSS'
+                description={["Web application that ranks and recommends an artist’s songs based on a user’s Spotify profile", "Implemented the K-nearest neighbors algorithm to calculate song similarity", "Used the Spotify API to gather user data, song data, and authorize access to a user profiles"]}
+                img='/images/explorify.JPG'
+                github='https://github.com/j-tan871/spotify-recommender'
+                link='https://explorify.vercel.app/'
+              />
+              <Project
                 title='Paul Quinn College Admissions Website'
                 tech='Vue, Python/Flask, MongoDB'
                 description={['Redesign of the Paul Quinn College admissions website to showcase their programs', 'Added new features to the site, including data visualizations, Facebook messenger chat, and an interactive Q&A board', 'Won 1st place at the JPMorgan Code for Good hackathon']}
@@ -127,7 +137,7 @@ export default function Home() {
           </section>
         </div>
       </main>
-      <Footer isDark={darkMode}/>
+      <Footer isDark={darkMode} />
     </div>
   )
 }
