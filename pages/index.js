@@ -3,8 +3,6 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import Navigation from '../components/Navigation';
 import Experience from '../components/Experience';
@@ -12,7 +10,7 @@ import Project from '../components/Project';
 import Footer from '../components/Footer';
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(() => false);
+  const [darkMode, setDarkMode] = useState(() => true);
   return (
     <div>
       <Head>
