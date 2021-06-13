@@ -87,13 +87,6 @@ export default function Home() {
             <h2 className='px-14 pb-5 md:pb-8 md:px-28 lg:px-36 xl:px-72 dark:text-white'>Projects</h2>
             <div className='flex flex-wrap px-5 md:px-28 lg:px-36 xl:px-56'>
               <Project
-                title='Vibecheck'
-                tech='React Native, React, Node/Express, Sequelize, MySQL'
-                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Companion dashboard web application for administrators to view party safety rating data and statistics']}
-                img='/images/vibecheck.JPG'
-                github='https://github.com/FullStackAtBrownTeam/project-party-safety'
-              />
-              <Project
                 title='CHAINge'
                 tech='React, Python/Flask'
                 description={['Web application that connects volunteers to nonprofits for volunteer opportunities', 'Rewards volunteers with decentralized tokens based on the Stellar blockchain network', 'Won Best Stellar Development Hack: 2nd place at Hack the Northeast']}
@@ -103,7 +96,7 @@ export default function Home() {
               />
               <Project
                 title='Spotify Song Recommender'
-                tech='Next.js, Python/Flask, Tailwind CSS'
+                tech='Next.js, Python/Flask, Spotify API, Tailwind CSS'
                 description={["Web application that ranks and recommends an artist’s songs based on a user’s Spotify profile", "Implemented the K-nearest neighbors algorithm to calculate song similarity", "Used the Spotify API to gather user data, song data, and authorize access to a user profiles"]}
                 img='/images/explorify.JPG'
                 github='https://github.com/j-tan871/spotify-recommender'
@@ -115,6 +108,20 @@ export default function Home() {
                 description={['Redesign of the Paul Quinn College admissions website to showcase their programs', 'Added new features to the site, including data visualizations, Facebook messenger chat, and an interactive Q&A board', 'Won 1st place at the JPMorgan Code for Good hackathon']}
                 img='/images/pqc.jpg'
                 link='https://fir-demo-c32f2.web.app/#/'
+              />
+              <Project 
+                title='Trip Planner'
+                tech='React, Python/Flask, MongoDB, Google Cloud Places API'
+                description={['Web application that allows a user to search for activities, receive highly-rated recommendations, and save locations they are interested in', 'Won Best Use of Google Cloud at Surfs Up Hacks']}
+                img='/images/surf.JPG'
+                github='https://github.com/j-tan871/Surfs-Up-Hacks'
+                link='https://beach-trip-planner.web.app/'
+              />
+              <Project
+                title='Vibecheck'
+                tech='React Native, React, Node/Express, Sequelize, MySQL'
+                description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Companion dashboard web application for administrators to view party safety rating data and statistics']}
+                img='/images/vibecheck.JPG'
               />
               <Project
                 title='Markov Chain Text Generator'
