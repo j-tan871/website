@@ -51,7 +51,9 @@ export default function Home() {
               title='Software Development Engineer Intern'
               company='Amazon'
               date='May 2021 - Present'
-              description={['Seller Trust, Abuse, and Risk team']}
+              description={['- Designed and built service backend to keep track of records excluded from enforcement action (AWS Lambda, API Gateway, DocumentDB, CDK, Typescript, Java)',
+                '- Implemented Lambda functions triggered by S3 file upload to automate database record creation',
+                '- Seller Trust, Abuse, and Risk team']}
             />
             <Experience
               image='/images/brown.png'
