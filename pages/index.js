@@ -51,8 +51,9 @@ export default function Home() {
               title='Software Development Engineer Intern'
               company='Amazon'
               date='May 2021 - Present'
-              description={['- Designed and built service backend to keep track of records excluded from enforcement action (AWS Lambda, API Gateway, DocumentDB, CDK, Typescript, Java)',
-                '- Implemented Lambda functions triggered by S3 file upload to automate database record creation',
+              description={['- Designed and developed a service backend to manage records excluded from enforcement action (Lambda, API Gateway, DocumentDB, CDK, Guice, Typescript, Java)',
+                '- Deployed the service into production using a multi-stage CI/CD pipeline configured by CDK/TypeScript',
+                '- Implemented Lambda functions triggered by S3 file upload to automate database record creation ',
                 '- Seller Trust, Abuse, and Risk team']}
             />
             <Experience
@@ -67,7 +68,7 @@ export default function Home() {
               title='Product Manager'
               company='Full Stack at Brown'
               date='January 2021 - Present'
-              description={['- Guide development for three project teams from start to finish', '- Help debug and resolve technical issues in React, Express, and MySQL']}
+              description={['- Met with three project teams weekly to guide web app development throughout the project lifecycle', '- Ensured teams made appropriate design decisions and helped debug technical issues ']}
             />
             <Experience
               image='/images/brown.png'
@@ -119,12 +120,12 @@ export default function Home() {
                 github='https://github.com/j-tan871/Surfs-Up-Hacks'
                 link='https://beach-trip-planner.web.app/'
               />
-              <Project
+              {/* <Project
                 title='Vibecheck'
                 tech='React Native, React, Node/Express, Sequelize, MySQL'
                 description={['Mobile app that promotes party safety and accountability on Brown’s campus', 'Companion dashboard web application for administrators to view party safety rating data and statistics']}
                 img='/images/vibecheck.JPG'
-              />
+              /> */}
               <Project
                 title='Markov Chain Text Generator'
                 tech='React, Python/Flask'
@@ -133,13 +134,13 @@ export default function Home() {
                 github='https://github.com/j-tan871/text-generator'
                 link='https://markovtextgenerator64802.web.app/'
               />
-              <Project
+              {/* <Project
                 title='r/WallStreetBets'
                 tech='Python, d3.js'
                 description={['An analysis of the performance of stocks approved by r/WallStreetBets', 'Web scraped r/WallStreetBets and analyzed sentiment on stocks to construct a portfolio', 'Compared portfolio performance with the S&P 500']}
                 img='/images/wsb.png'
                 link='https://drive.google.com/file/d/1Ps01BaVyLuNETnunt1Sm2g7hFwAYnmeW/view?usp=sharing'
-              />
+              /> */}
             </div>
           </section>
         </div>
