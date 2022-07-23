@@ -35,9 +35,8 @@ export default function Home() {
                 </div>
                 <div className='transition-colors duration-1000 ease-in-out p-4 md:p-8 dark:bg-lightpurple'>
                   <h1 className='dark:text-white'>Hi, I'm Jenny!</h1>
-                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>I’m a junior studying CS at Brown, with a focus in Software and AI/ML.</p>
-                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>Currently, I’m a Software Development Engineer intern at Amazon working in the Seller Trust, Abuse, and Risk team. </p>
-                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl'>When I'm not working, I love running, cooking, and learning new things. </p>
+                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>I’m a senior studying CS at Brown.</p>
+                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>Currently, I'm a Software Engineer intern at Stripe working on the Cards Authorization team. Previously, I was a Software Development Engineer intern at Amazon working in the Seller Trust, Abuse, and Risk team. </p>
                 </div>
               </div>
             </div>
@@ -46,11 +45,23 @@ export default function Home() {
           <section className='py-28 px-8 md:px-28 lg:px-36 xl:px-72 dark:text-white md:pt-28' id='experience'>
             <h2>Experience</h2>
             <p>Click on the headings to learn more!</p>
+            <Experience 
+              image='/images/stripe.png'
+              title='Software Engineer Intern'
+              company='Stripe'
+              date='May 2022-Present'
+              description={
+                ['- Created and deployed an automated SignalFX dashboard infrastructure that uses a novel CSV parsing solution to increase card authorization rate observability for Stripe’s top 25 merchants',
+                '- Wrote a shell script to automate the dashboard creation process, including querying merchant data and generating a Terraform plan and pull request, reducing engineer time required by 75% (Terraform, Ruby)',
+                '- Developed and deployed web application to query credentials for charge authentication (gRPC, Java, React)', 
+                '- Cards Authorization team'
+                ]}
+            />
             <Experience
               image='/images/amazon.png'
               title='Software Development Engineer Intern'
               company='Amazon'
-              date='May 2021 - Present'
+              date='May 2021 - August 2021'
               description={['- Designed and developed a service backend to manage records excluded from enforcement action (Lambda, API Gateway, DocumentDB, CDK, Guice, Typescript, Java)',
                 '- Deployed the service into production using a multi-stage CI/CD pipeline configured by CDK/TypeScript',
                 '- Implemented Lambda functions triggered by S3 file upload to automate database record creation ',
@@ -59,16 +70,24 @@ export default function Home() {
             <Experience
               image='/images/brown.png'
               title='Undergraduate Teaching Assistant'
-              company='CSCI 0330: Introduction to Computer Systems'
-              date='August 2021'
-              description={[]}
+              company='CSCI 0330: Introduction to Computer Systems, CSCI 0200: Data Structures and Algorithms'
+              date='August 2021 - May 2022'
+              description={[
+                '- Host weekly office hours to help students debug projects and labs for 300+ student classes', 
+                '- Data Structures & Algorithms: rewrote tests to use JUnit and updated assignment handouts', 
+                '- Computer Systems: redesigned a memory allocation project to increase student understanding'
+              ]}
             />
             <Experience
               image='/images/fsab.jpg'
-              title='Product Manager'
+              title='Activities Director'
               company='Full Stack at Brown'
-              date='January 2021 - Present'
-              description={['- Met with three project teams weekly to guide web app development throughout the project lifecycle', '- Ensured teams made appropriate design decisions and helped debug technical issues ']}
+              date='January 2021 - May 2022'
+              description={[
+                '- Organized events for a 350+ student organization, including workshops on technical interviews and accessible web design and a web development bootcamp for new members  ',
+                '- Previous Product Manager: Met with three project teams weekly to guide web app development throughout the project lifecycle', 
+                '- Ensured teams made appropriate design decisions and helped debug technical issues '
+              ]}
             />
             <Experience
               image='/images/brown.png'
