@@ -36,7 +36,8 @@ export default function Home() {
                 <div className='transition-colors duration-1000 ease-in-out p-4 md:p-8 dark:bg-lightpurple'>
                   <h1 className='dark:text-white'>Hi, I'm Jenny!</h1>
                   <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>I’m a senior studying CS at Brown.</p>
-                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>Currently, I'm a Software Engineer intern at Stripe working on the Cards Authorization team. Previously, I was a Software Development Engineer intern at Amazon working in the Seller Trust, Abuse, and Risk team. </p>
+                  <p className='font-sans text-sm text-gray-500 dark:text-white hover:text-gray-600 lg:text-xl pb-2 lg:pb-5'>Previously, I was a software engineer intern at Stripe and Amazon.  
+                    I am currently looking for new grad software engineering opportunities-- feel free to reach out!</p>
                 </div>
               </div>
             </div>
@@ -49,10 +50,11 @@ export default function Home() {
               image='/images/stripe.png'
               title='Software Engineer Intern'
               company='Stripe'
-              date='May 2022-Present'
+              date='May 2022 - August 2022'
               description={
                 ['- Created and deployed an automated SignalFX dashboard infrastructure that uses a novel CSV parsing solution to increase card authorization rate observability for Stripe’s top 25 merchants',
                 '- Wrote a shell script to automate the dashboard creation process, including querying merchant data and generating a Terraform plan and pull request, reducing engineer time required by 75% (Terraform, Ruby)',
+                '- Implemented and deployed a data pipeline that processes 6 billion+ rows of payment attempt data daily',
                 '- Developed and deployed web application to query credentials for charge authentication (gRPC, Java, React)', 
                 '- Cards Authorization team'
                 ]}
